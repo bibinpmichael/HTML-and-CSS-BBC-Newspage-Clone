@@ -1,0 +1,73 @@
+/* General styles for the body of the webpage */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Font family for text */
+    background: whitesmoke; /* Background color of the page */
+    color: black; /* Text color */
+    line-height: 1.5; /* Line height for readability */
+    font-size: 18px; /* Font size for text */
+    text-align: left; /* Align text to the left */
+    margin: 0; /* Remove default margin */
+}
+
+/* Container for the page content, centers content and sets width */
+.container {
+    width: 800px; /* Width of the container */
+    margin: 0 auto; /* Centers the container horizontally */
+}
+
+/* Styles for the header section */
+header {
+    background: #b80000; /* Background color of the header */
+    padding: 20px; /* Padding inside the header */
+    color: whitesmoke; /* Text color inside the header */
+}
+
+/* Styles for the main title in the header */
+.title {
+    margin-top: 0; /* Remove top margin for the title */
+}
+
+/* Styles for the navigation menu */
+.menu {
+    display: flex; /* Use flexbox layout */
+    gap: 15px; /* Space between menu items */
+    align-items: center; /* Align items vertically centered */
+    list-style: none; /* Remove bullet points from list */
+    padding-left: 0; /* Remove left padding */
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+/* Styles for the links in the navigation menu */
+.menu a {
+    color: inherit; /* Inherit text color from parent */
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Display links as inline-block elements */
+}
+
+/* Styles for the article section */
+article {
+    display: flex; /* Use flexbox layout */
+    gap: 20px; /* Space between elements */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Align items vertically centered */
+    padding: 0 20px 20px 20px; /* Padding around the content */
+    background: #e5e7eb; /* Background color of the article section */
+}
+
+/* Styles for the figure section */
+figure {
+    margin: 0; /* Remove default margin */
+}
+
+/* Styles for images in the figure section */
+img {
+    width: 300px; /* Set fixed width for images */
+}
+
+/* Styles for the footer section */
+footer {
+    background: #e5e7eb; /* Background color of the footer */
+    text-align: center; /* Center text in the footer */
+    padding: 10px; /* Padding inside the footer */
+    border-top: 1px solid #333; /* Top border for the footer */
+}
